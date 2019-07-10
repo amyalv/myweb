@@ -8,34 +8,40 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-
+.w3-navcolor, .w3-hover-white:hover {
+    color: #000!important;
+    background-color: #C5FFD0!important;
+}
+.w3-bdcolor{
+    color: #000!important;
+    background-color: #F0FFF0!important;
+}
+.w3-bkcolor{
+    color: #F9F9F9!important;
+    background-color: #000!important;
+}
 
 </style>
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+<body class="w3-bkcolor w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-navcolor w3-animate-left" style="z-index: 3; width: 300px; display: block;" id="mySidebar"><br>
   <div class="w3-container">
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="image.png" style="width:45%;" class="w3-round"><br><br>    
+    <img src="https://pbs.twimg.com/media/D_H2TmWXsAATFmB.jpg:large" style="width:45%;" class="w3-round"><br><br>    
     <h4><b>Eco Beauty Shield</b></h4>
     <p class="w3-text-grey">Hopes of creating a beautiful environment after destruction.</p>
   </div>
   <div class="w3-bar-block">
-    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Environment Awareness</a> 
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Insight</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contact Organizations</a>
+    <a href="#intro" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa-fw w3-margin-right"></i>Environment Awareness</a> 
+    <a href="#insight" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa-fw w3-margin-right"></i>Insight</a> 
+    <a href="#about us" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa-fw w3-margin-right"></i>About Us</a>
+    <a href="#organizations" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa-fw w3-margin-right"></i>Contact Organizations</a>
+    <a href="#refrences" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa-fw w3-margin-right"></i>Refrences</a> 
   </div>
-  <div class="w3-panel w3-large">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
+
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -45,8 +51,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <div class="w3-main" style="margin-left:300px">
 
   <!-- Header -->
-  <header id="portfolio">
-    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+  <header id="intro">
+    <a href="#"><img src="https://pbs.twimg.com/media/D_H2TmWXsAATFmB.jpg:large" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
     <h1 style="text-align:center;"><b><u>Environment Awareness</u></b></h1>
@@ -59,7 +65,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="https://i.pinimg.com/originals/b8/97/41/b89741e42da9036a9971794576e3e9fb.jpg" alt="Earthquake" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
+      <div class="w3-container w3-bdcolor">
         <p><b>Earthquakes</b></p>
         <p><u>What it is:</u>  A sudden and violent shaking of the ground, sometimes causing great destruction, as a result of movements within the earth's crust or volcanic action.</p>
 
@@ -75,7 +81,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="http://www.netralnews.com/foto/2017/09/06/973-letusan_gunung_tambora-324x235.jpg" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
+      <div class="w3-container w3-bdcolor">
         <p><b>Volcanic Eruptions</b></p>
         <p><u>What it is:</u>   A volcanic eruption occurs when hot materials from the earth's interior are thrown out of a volcano.</p>
 
@@ -94,7 +100,7 @@ Federal Aid Roads are up to $52,000, & Country roads replacement costs are up to
     </div>
     <div class="w3-third w3-container">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Riverina_Sheep_%28during_drought%29.jpg/220px-Riverina_Sheep_%28during_drought%29.jpg" alt="Drought" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
+      <div class="w3-container w3-bdcolor">
         <p><b>Drought</b></p>
         <p><u>What it is:</u>  A natural disaster of below-average precipitation in a given region, resulting in prolonged shortages in the water supply, whether atmospheric, surface water or groundwater.</p>
 
@@ -115,7 +121,7 @@ Federal Aid Roads are up to $52,000, & Country roads replacement costs are up to
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="https://cdn.vox-cdn.com/thumbor/hMRcZ6iOcSTJq8ypgNyC2pfLB8c=/0x0:3000x2000/1220x813/filters:focal(1260x760:1740x1240):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/63283692/GettyImages_1137096383.0.jpg" alt="Flood" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
+      <div class="w3-container w3-bdcolor">
         <p><b>Floods</b></p>
         <p><u>What it is:</u>  An overflow of water that submerges land that is usually dry.</p>
 
@@ -132,7 +138,7 @@ Federal Aid Roads are up to $52,000, & Country roads replacement costs are up to
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="https://www.nasa.gov/sites/default/files/hurricane_1_1.jpg" alt="Hurricane" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
+      <div class="w3-container w3-bdcolor">
         <p><b>Hurricanes</b></p>
         <p><u>What it is:</u>  A storm with a violent wind, in particular a tropical cyclone in the Caribbean.</p>
 
@@ -149,7 +155,7 @@ Federal Aid Roads are up to $52,000, & Country roads replacement costs are up to
     </div>
     <div class="w3-third w3-container">
       <img src="https://media.mnn.com/assets/images/2012/07/tornado-colorado-oklahoma-border.jpg.653x0_q80_crop-smart.jpg" alt="Tornado" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
+      <div class="w3-container w3-bdcolor">
         <p><b>Tornadoes</b></p>
         <p><u>What it is:</u>  Rapidly rotating column of air that is in contact with both the surface of the Earth and a cumulonimbus cloud or, in rare cases, the base of a cumulus cloud.</p>
 
@@ -168,24 +174,21 @@ Federal Aid Roads are up to $52,000, & Country roads replacement costs are up to
 
 
   <!-- Images of Me -->
-  <div class="w3-row-padding w3-padding-16" id="about">
-    <div class="w3-col m6">
+<div class="w3-container w3-padding-large" style="margin-bottom:32px" id="insight">
     <h4 style="text-align:center;"><b><u>Insights</u></b></h4>
     <p>Preventing natural disasters. </p>
-    </div>
-    <hr>
-    
-    <div>
+   
     <h4><b>Stats</b></h4>
     <p> images </p>
     <p> images </p>
-    </div>
+    <hr>
+</div>
     
     <div>
     <h4 style="text-align:center;"><b>How We Can Help</b></h4>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-third w3-margin-bottom">
-        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <ul class="w3-ul w3-border w3-bdcolor w3-center w3-opacity-on">
           <li class="w3-green w3-xlarge w3-padding-32">At Home</li>
           <li class="w3-padding-16">Reduce, Reuse, Recycle</li>
           <li class="w3-padding-16">Cosume less energy</li>
@@ -197,7 +200,7 @@ Federal Aid Roads are up to $52,000, & Country roads replacement costs are up to
       </div>
       
       <div class="w3-third w3-margin-bottom">
-        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <ul class="w3-ul w3-border w3-bdcolor w3-center w3-opacity-on">
           <li class="w3-green w3-xlarge w3-padding-32">Donate(?)</li>
           <li class="w3-padding-16">stuff</li>
           <li class="w3-padding-16">stuff</li>
@@ -209,7 +212,7 @@ Federal Aid Roads are up to $52,000, & Country roads replacement costs are up to
       </div>
       
       <div class="w3-third">
-        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <ul class="w3-ul w3-border w3-bdcolor w3-center w3-opacity-on">
           <li class="w3-green w3-xlarge w3-padding-32">Community Service(?)</li>
           <li class="w3-padding-16">stuff</li>
           <li class="w3-padding-16">stuff</li>
@@ -222,14 +225,16 @@ Federal Aid Roads are up to $52,000, & Country roads replacement costs are up to
     </div>
   </div>
   
-<div class="w3-container w3-padding-large" style="margin-bottom:32px">
+<div class="w3-container w3-padding-large" style="margin-bottom:32px" id="about us">
     <h4 style="text-align:center;"><b><u>About Us</u></b></h4>
-    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    <hr>
+    <p>We’re from the Girls Who Code Program & we are the type of people who care about the environment. We made this website to show our passion of nurturing and preserving the environment. My name is Kavya Ramesh. I’m a 17 year old high school student. I’m the type of person who would recycle any chance I would get to just to make sure the environment is safe. The current global warming issue as of 2019 honestly gets to me as knowing that the world could end sooner than expected is not the best situation to be in the middle of. This is one way I can show how much saving the environment means to me and I’m thankful to be able to show this with my two amazing friends. My name is Maria Castro. I’m 17 years old. I’m a high school student. Since there is water shortage in some parts of the world, I like saving as much water as I can. My name is Amy Alvarado, 2 years from graduating and becoming an adult, I'll be inheriting all the problems from my past generation, 
+	one of them is global warming and climate change. Global warming is highly affected by the carbon dioxide.</p>
+
+
   
- <footer class="w3-container w3-padding-32 w3-#00ffbf">
+ <footer class="w3-container w3-bdcolor w3-padding-32 w3-#00ffbf">
   <div class="w3-row-padding">
-      <h3 style="text-align:center;" id="contact"><b><u>Organizations</u></b></h3>
+      <h3 style="text-align:center;" id="organizations"><b><u>Organizations</u></b></h3>
       <div class="w3-third">
       <p><b>FEMA:</b></p>
 <p>Federal Emergency Management Agency
@@ -266,7 +271,7 @@ Advocates for sound environmental laws and policies, holds elected officials acc
   </div>
   </footer>
   
-  <div class="w3-black w3-center w3-padding-24">Refrences</div>
+  <div class="w3-black w3-center w3-padding-24" id="refrences">Refrences</div>
 
 <!-- End page content -->
 </div>
